@@ -1,3 +1,8 @@
+<?php 
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +11,16 @@
   <title>Document</title>
 </head>
 <body>
-    <h2>ciao</h2>
+    <h2>Censura il tuo paragrafo</h2>
+    
+
+    <form action="risposta.php" method="GET">
+      <label for="paragraf">Paragrafo</label>
+      <input type="text" name="paragraf" id="paragraf">
+      <label for="noWord">Parola da censurare</label>
+      <input type="text" name="noWord" id="noWord">
+      <button>invia</button>
+
+    </form>
 </body>
 </html>
