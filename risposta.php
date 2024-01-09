@@ -3,7 +3,7 @@
 
 
   $parag = $_GET['paragraf'];
-  $word = $_GET['noWord'];
+  $word = $_GET['no-word'];
   $cens_paragraf = str_replace( $word, '***' , $parag );
   
 ?>
