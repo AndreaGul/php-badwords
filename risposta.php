@@ -1,3 +1,4 @@
+
 <?php
 
 
@@ -6,8 +7,15 @@
   $cens_paragraf = str_replace( $word, '***' , $parag );
   
 ?>
-
-<div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHP Badwords</title>
+</head>
+<body>
+  <div>
   <h2>Paragrafo</h2>
   <p> <?php echo $parag; ?> </p>
   <h4>Lunghezza del paragrafo</h4>
@@ -21,3 +29,7 @@
   <p> <?php echo strlen($cens_paragraf); ?></p>
 
 </div>
+</body>
+</html>
+
+
