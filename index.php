@@ -16,7 +16,7 @@
 
     <form action="risposta.php" method="GET">
       <label for="paragraf">Paragrafo</label>
-      <input type="text" name="paragraf" id="paragraf">
+      <textarea name="paragraf" id="paragraf" cols="30" rows="10"></textarea>
       <label for="noWord">Parola da censurare</label>
       <input type="text" name="noWord" id="noWord">
       <button>invia</button>
